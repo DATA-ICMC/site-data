@@ -32,6 +32,14 @@ export function SponsorList({ names }: SponsorListProps) {
       url: "https://c4ai.inova.usp.br/",
     },
     {
+      name: "ALURA",
+      logo:
+        theme === "dark"
+          ? "/images/sponsors/alura-logo.png"
+          : "/images/sponsors/alura-logo-white.png",
+      url: "https://c4ai.inova.usp.br/",
+    },
+    {
       name: "CEMEAI",
       logo:
         theme === "dark"
